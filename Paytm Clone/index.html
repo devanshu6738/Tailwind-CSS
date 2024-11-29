@@ -7,9 +7,9 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="w-screen h-screen">
-        <nav class="w-full h-24 flex justify-center items-center shadow-lg">
-           <div class="w-[90%] flex justify-center items-center gap-2">
+    <div class="w-screen h-screen overflow-x-hidden">
+        <nav class="w-full h-24 flex justify-center items-center shadow-lg sticky top-0  bg-white">
+           <div class="w-[90%] flex justify-center items-center gap-2 min-w-[70%]">
             <img src="assets/asset 0.svg" alt="" class="cursor-pointer">
             <p class="text-[18px] px-4 py-2 font-medium hover:bg-slate-100 rounded-sm cursor-pointer">Paytm for Consumer</p>
             <p class="text-[18px] px-4 py-2 font-medium hover:bg-slate-100 rounded-sm cursor-pointer">Paytm For Business</p>
@@ -27,13 +27,36 @@
             </button>
            </div>
         </nav>
-        <section class="flex w-full justify-center">
-            <p class="flex my-3">
-               <span>No KYC Required</span>
-               <span>😊</span>
+        <section class="flex w-full justify-center bg-kyc">
+            <p class="flex my-2 ">
+               <span class="font-semibold">No Wallet KYC Required</span>
+               <span class="text-2xl">😊</span>
                <span> to pay using UPI on Paytm.</span>
-               <span>Learn more.</span>
+               <span class="font-medium cursor-pointer">Learn more.</span>
             </p>
+        </section>
+        <section class="w-full h-[80%] flex justify-end">
+            <div class="min-w-[80%] flex justify-end items-center h-full">
+                <div class="flex flex-col items-start h-full gap-6 justify-center mr-[200px]">
+                    <img src="assets/asset 2.avif" alt="" class="w-24">
+                    <div class="flex flex-col gap-3">
+                        <p class="text-6xl font-bold w-[600px]">India's Most-loved
+                            Payments App
+                            </p>
+                        <p class="text-lg font-medium w-[450px] mt-9">Recharge & pay bills, book flights & movie tickets,
+                            open a savings account, invest in stocks & mutual
+                            funds, and do a lot more</p>
+                    </div>
+                    <button class="flex justify-center items-center bg-black text-white px-[30px] py-[8px] rounded-3xl gap-1 hover:bg-white hover:text-black border-2 border-black">
+                        <p>Download Paytm App</p>
+                        <p>+</p>
+                        <p>+</p>
+                    </button>
+                </div>
+                <div>
+                    <img src="assets/asset 3.avif" alt="" class="max-w-[500px]">
+                </div>
+            </div>
         </section>
     </div>
 </body>

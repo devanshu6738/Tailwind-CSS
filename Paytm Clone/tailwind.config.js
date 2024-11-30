@@ -6,7 +6,11 @@ module.exports = {
       colors:{
         "bullu":"#00BAF2",
         "darkbullu":"#002970",
-        "kyc":"#F5F5F6"
+        "kyc":"#F5F5F6",
+        "hoverbullu":"#00AFE3",
+        "darkbulluu":"#0F4A8A",
+        "hoverdarkbullu":"#0D3E80",
+        "backcolor":'#F5F7F9'
       }
     },
   },

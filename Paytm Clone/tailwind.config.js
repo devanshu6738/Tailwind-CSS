@@ -10,7 +10,8 @@ module.exports = {
         "hoverbullu":"#00AFE3",
         "darkbulluu":"#0F4A8A",
         "hoverdarkbullu":"#0D3E80",
-        "backcolor":'#F5F7F9'
+        "backcolor":'#F5F7F9',
+        "bullcolor":"#4CCFF6"
       }
     },
   },

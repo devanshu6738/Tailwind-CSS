@@ -12,8 +12,14 @@ module.exports = {
         "hoverdarkbullu":"#0D3E80",
         "backcolor":'#F5F7F9',
         "bullcolor":"#4CCFF6"
+      },
+      screens:{
+        "verySmall":{'max':'399px'},
+        "large":{"max":"1070px"},
+        "medium":{"max":"768px"},
       }
     },
+    
   },
   plugins: [],
 }

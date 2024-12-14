@@ -10,13 +10,21 @@
 <body>
     <div class="w-screen h-screen overflow-x-hidden bg-backcolor">
         <nav class="w-full h-24 flex justify-center items-center shadow-lg sticky top-0  bg-white z-30">
-           <div class="w-[90%] flex justify-center items-center gap-2 min-w-[70%]">
-            <img src="assets/asset 0.svg" alt="" class="cursor-pointer">
-            <p class="text-[18px] px-4 py-2 font-medium hover:bg-slate-100 rounded-sm cursor-pointer">Paytm for Consumer</p>
-            <p class="text-[18px] px-4 py-2 font-medium hover:bg-slate-100 rounded-sm cursor-pointer">Paytm For Business</p>
-            <p class="text-[18px] px-4 py-2 font-medium hover:bg-slate-100 rounded-sm cursor-pointer">Investor Relations</p>
-            <p class="text-[18px] px-4 py-2 font-medium hover:bg-slate-100 rounded-sm cursor-pointer">Company</p>
-            <p class="text-[18px] px-4 py-2 font-medium hover:bg-slate-100 rounded-sm cursor-pointer">Career</p>
+           <div class="w-[90%] flex justify-between items-center gap-2 min-w-[60%] large:w-full">
+            <div class="flex justify-center items-center gap-3">
+                <p class="hidden large:block">
+                    <i class="fa-solid fa-bars w-24 ml-7" style="color: #000000;"></i>
+                </p>
+                <img src="assets/asset 0.svg" alt="" class="cursor-pointer">
+            </div>
+            <div class="large:hidden flex">
+                <p class="text-lg px-4 py-2 font-medium hover:bg-slate-100 rounded-sm cursor-pointer large:hidden">Paytm for Consumer</p>
+                <p class="text-lg px-4 py-2 font-medium hover:bg-slate-100 rounded-sm cursor-pointer">Paytm For Business</p>
+                <p class="text-lg px-4 py-2 font-medium hover:bg-slate-100 rounded-sm cursor-pointer">Investor Relations</p>
+                <p class="text-lg px-4 py-2 font-medium hover:bg-slate-100 rounded-sm cursor-pointer">Company</p>
+                <p class="text-lg px-4 py-2 font-medium hover:bg-slate-100 rounded-sm cursor-pointer">Career</p>
+
+            </div>
             <button class="flex justify-end items-center bg-bullu w-28 p-1 rounded-3xl hover:bg-darkbullu">
                 <p class="text-white mr-2 font-medium">Sign In</p>
                 <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -29,19 +37,19 @@
            </div>
         </nav>
         <section class="flex w-full justify-center bg-kyc">
-            <p class="flex my-2 ">
+            <p class="text-center my-2 ">
                <span class="font-semibold">No Wallet KYC Required</span>
                <span class="text-2xl">😊</span>
                <span> to pay using UPI on Paytm.</span>
                <span class="font-medium cursor-pointer">Learn more.</span>
             </p>
         </section>
-        <section class="w-full h-[80%] flex justify-end">
-            <div class="min-w-[80%] flex justify-end items-center h-full">
-                <div class="flex flex-col items-start h-full gap-6 justify-center mr-[200px]">
+        <section class="w-full h-[80%] flex justify-end medium:justify-start medium:h-[70%]">
+            <div class="min-w-[85%] flex justify-between items-center h-full large:w-full medium:flex-col">
+                <div class="flex flex-col items-start gap-14 justify-center">
                     <img src="assets/asset 2.avif" alt="" class="w-24">
-                    <div class="flex flex-col gap-3">
-                        <p class="text-6xl font-bold w-[600px]">India's Most-loved
+                    <div class="flex flex-col gap-3 medium:items-center">
+                        <p class="text-6xl font-bold w-[600px] medium:text-4xl medium:w-[350px]">India's Most-loved
                             Payments App
                             </p>
                         <p class="text-lg font-medium w-[450px] mt-9">Recharge & pay bills, book flights & movie tickets,
@@ -54,8 +62,8 @@
                         <p>+</p>
                     </button>
                 </div>
-                <div>
-                    <img src="assets/asset 3.avif" alt="" class="max-w-[500px]">
+                <div class="large:w-full medium:hidden">
+                    <img src="assets/asset 3.avif" alt="" class="max-w-[500px] large:w-full">
                 </div>
             </div>
         </section>
@@ -159,14 +167,14 @@
                 </div>
             </div>
         </section>
-        <section class="w-full min-h-96 flex justify-center items-center pb-32">
-            <div class="w-[65%] mt-20">
+        <section class="w-full min-h-96 flex justify-center items-center pb-32 bg-backcolor">
+            <div class="min-w-[65%] mt-20">
                 <div class="flex flex-col gap-10">
                     <div class="text-4xl font-bold">Paytm Payment Instruments</div>
-                    <div class="flex justify-center items-center bg-white h-[630px]">
+                    <div class="w-full flex justify-around items-center bg-white h-[630px]">
                         <div class="flex flex-col items-start justify-around h-[50%] ml-24">
                             <div class="flex justify-start items-center gap-4">
-                                <img class="w-20" src="assets/asset 18.png" alt="">
+                                <img class="w-16" src="assets/asset 18.png" alt="">
                                 <p class="w-11 font-medium">Paytm Wallet</p>
                             </div>
                             <p class="text-4xl font-bold w-96">The Fastest Way to Pay In-store & Online</p>
@@ -232,7 +240,7 @@
                             <img class="w-64" src="assets/asset 26.png" alt="">
                             <p class="text-3xl font-bold w-[330px]">India’s Most
                                 Sincere Credit Card</p>
-                            <p class="text-xl font-medium">Paytm SBI Card SELECT - With Intelligent Features & Great Rewards that Never Expire</p>
+                            <p class="text-xl font-medium w-[450px]">Paytm SBI Card SELECT - With Intelligent Features & Great Rewards that Never Expire</p>
                             <img class="w-[450px]" src="assets/asset 27.webp" alt="">
                         </div>
                     </div>
@@ -411,7 +419,7 @@
     </div>
  </section>
  <section class="w-full min-h-[300px] flex justify-center items-center bg-white">
-    <div class="w-[70%] flex flex-col justify-center items-start mb-36 gap-32">
+    <div class="min-w-[70%] flex flex-col justify-center items-start mb-36 gap-32">
         <div class="flex w-full justify-between g-16">
             <div class="flex flex-col items-start gap-6 w-72">
                 <img class="w-36" src="assets/asset 44.webp" alt="">
@@ -482,6 +490,124 @@
         </div>
     </div>
  </section>
+ <footer class="w-full h-[900px] large:h-fit bg-bgColor mt-10 flex justify-center items-start ">
+    <div class="min-w-[60%] large:w-full flex flex-col items-center justify-center large:px-7  ">
+        <div class="flex w-full justify-between large:justify-center items-center my-16  ">
+            <div class="flex gap-2 large:hidden ">
+                <p class="w-52 font-semibold text-xl">Download Paytm App to Pay from anywhere</p>
+                <img class="cursor-pointer" src="assets/asset 57.svg" alt="">
+                <img src="assets/asset 58.svg" alt="">
+            </div>
+            <div class="flex gap-5 mr-7">
+                <img class="cursor-pointer" src="assets/asset 59.svg" alt="">
+                <img class="cursor-pointer" src="assets/asset 60.svg" alt="">
+                <img class="cursor-pointer" src="assets/asset 61.svg" alt="">
+            </div>
+        </div>
+        <div class="bg-line w-full h-[1px]"></div>
+        <div class="flex flex-col w-full mt-20 gap-7 large:mt-5 large:mb-16">
+           
+            <div class="flex gap-3 items-start large:flex-row-reverse  large:w-full  cursor-pointer">
+                   <img class="relative top-1 rotate-[45deg]" src="assets/asset 62.svg" alt="">
+        
+                    <div class="flex w-full flex-col gap-1">
+                        <div class="flex items-end relative">
+                            <p class="min-w-fit font-bold text-fontColor ">Investor Relations</p>
+                            <div class="bg-line w-full h-[1px] large:absolute large:w-[110%] large:top-56"></div>
+                        </div>
+                        <div class="flex text-sm mt-5 gap-24  large:flex-col large:gap-2">
+                            <p class="text-smallFontColor hover:text-black transition-all duration-200">Home</p>
+                            <p class="text-smallFontColor hover:text-black transition-all duration-200">Financials</p>
+                            <p class="text-smallFontColor hover:text-black transition-all duration-200">Filings & Press Releases</p>
+                            <p class="text-smallFontColor hover:text-black transition-all duration-200">News & Events</p>
+                            <p class="text-smallFontColor hover:text-black transition-all duration-200">Corporate Governance</p>
+                            <p class="text-smallFontColor hover:text-black transition-all duration-200">Resources</p>
+                        </div>
+                    </div>
+
+            </div>
+
+
+            <div class="flex gap-3  cursor-pointer large:flex-row-reverse">
+                <img src="assets/asset 62.svg" alt="">
+                <div class="relative flex w-full items-end large:flex-col large:items-start gap-1" >
+                    <p class=" min-w-fit font-bold text-fontColor ">More about Paytm</p>
+                    <div class="bg-line w-full h-[2px] large:top-10 large:w-[110%] large:absolute"></div>
+                </div>
+            </div>
+
+
+            <div class="flex gap-3  cursor-pointer large:flex-row-reverse">
+                <img src="assets/asset 62.svg" alt="">
+                <div class="relative flex w-full items-end large:flex-col large:items-start gap-1" >
+                    <p class=" min-w-fit font-bold text-fontColor ">Company</p>
+                    <div class="bg-line w-full h-[1px] large:top-10 large:w-[110%] large:absolute"></div>
+                </div>
+            </div>                    
+            
+            <div class="flex gap-3  cursor-pointer large:flex-row-reverse">
+                <div class="relative flex w-full items-end large:flex-col large:items-start gap-1" >
+                    <p class=" min-w-fit font-bold text-fontColor ">Career</p>
+                    <div class="bg-line w-full h-[1px] large:top-10 large:w-[110%] large:absolute"></div>
+                </div>
+            </div>                    
+            
+            <div class="flex gap-3  cursor-pointer large:flex-row-reverse">
+                <img src="assets/asset 62.svg" alt="">
+                <div class="relative flex w-full items-end large:flex-col large:items-start gap-1" >
+                    <p class=" min-w-fit font-bold text-fontColor ">Recharge & pay bills</p>
+                    <div class="bg-line w-full h-[1px] large:top-10 large:w-[110%] large:absolute"></div>
+                </div>
+            </div>                    
+            
+            <div class="flex gap-3  cursor-pointer large:flex-row-reverse">
+                <img src="assets/asset 62.svg" alt="">
+                <div class="relative flex w-full items-end large:flex-col large:items-start gap-1" >
+                    <p class=" min-w-fit font-bold text-fontColor ">Pay Loan EMI, Insurance Premiums & Education Fee</p>
+                    <div class="bg-line w-full h-[1px] large:top-10 large:w-[110%] large:absolute"></div>
+                </div>
+            </div>                    
+            
+            <div class="flex gap-3  cursor-pointer large:flex-row-reverse">
+                <img src="assets/asset 62.svg" alt="">
+                <div class="relative flex w-full items-end large:flex-col large:items-start gap-1" >
+                    <p class=" min-w-fit font-bold text-fontColor ">Book Travel & Entertainment</p>
+                    <div class="bg-line w-full h-[1px] large:top-10 large:w-[110%] large:absolute"></div>
+                </div>
+            </div>                    
+            
+            <div class="flex gap-3  cursor-pointer large:flex-row-reverse">
+                <img src="assets/asset 62.svg" alt="">
+                <div class="relative flex w-full items-end large:flex-col large:items-start gap-1" >
+                    <p class=" min-w-fit font-bold text-fontColor ">Investments & Miscellaneous</p>
+                    <div class="bg-line w-full h-[1px] large:top-10 large:w-[110%] large:absolute"></div>
+                </div>
+            </div>     
+
+            <div class="flex gap-3  cursor-pointer large:flex-row-reverse">
+                <img src="assets/asset 62.svg" alt="">
+                <div class="relative flex w-full items-end large:flex-col large:items-start gap-1" >
+                    <p class=" min-w-fit font-bold text-fontColor ">Loans and Credit Cards</p>
+                    <div class="bg-line w-full h-[1px] large:top-10 large:w-[110%] large:absolute"></div>
+                </div>
+            </div>           
+
+            <div class="flex gap-3  cursor-pointer large:flex-row-reverse">
+                <img src="assets/asset 62.svg" alt="">
+                <div class="relative flex w-full items-end large:flex-col large:items-start gap-1" >
+                    <p class=" min-w-fit font-bold text-fontColor ">Financial Tools & Calculators</p>
+                    <div class="bg-line w-full h-[1px] large:top-10 large:w-[110%] large:absolute"></div>
+                </div>
+            </div>
+
+
+
+        </div>
+
+        <div class="hidden large:block text-sm mb-16 ">Copyright© 2023 Paytm All rights reserved</div>
     </div>
+ </footer>  
+ <section class="bg-bullu w-full h-3"></section>
+ <section class="bg-darkbullu w-full h-3"></section>
 </body>
 </html>

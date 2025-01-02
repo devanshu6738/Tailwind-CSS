@@ -9,87 +9,269 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <div class="w-screen h-screen flex flex-col items-center">
-       <div class="w-[92%] flex flex-col items-center">
-        <nav class="flex p-2 w-full h-30 items-center justify-between">
-            <div>
-                <img class="w-[120px]  cursor-pointer" src="asset/pngwing.com.png">
-            </div>
-            <div class="flex gap-4 p-2 border border-[#EEEEEE] rounded-[50px] items-center shadow-md ml-[150px]">
-                <p class="font-semibold cursor-pointer ml-3 text-[15px]">Anywhere</p>
-                <div class="w-[2px] h-[30px] bg-[#EEEEEE]"></div>
-                <p class="font-semibold cursor-pointer text-[15px]">Any week</p>
-                <div class="w-[2px] h-[30px] bg-[#EEEEEE]"></div>
-                <p class="cursor-pointer text-[15px] from-slate-400">Add guests</p>
-                    <i class="fa-solid fa-magnifying-glass bg-[#FF385C] p-2 rounded-full cursor-pointer" style="color: #f2f2f2;"></i>
-            </div>
-            <div class="flex gap-2 items-center mr-10">
-                <div class="p-2 hover:bg-[#F7F7F7] rounded-2xl">
-                    <p class="font-semibold text-[15px]">Airbnb your home</p>
-                </div>
-                <div class="p-3 hover:bg-[#F7F7F7] rounded-2xl">
-                    <img class="w-4" src="asset/asset 114.svg" alt="">
-                </div>
-                <div class="flex gap-3 pl-3 pr-3 pt-2 pb-2 border border-[#EEEEEE] rounded-[50px]  hover:shadow-md transition-all duration-150 ">
-                    <img class="w-4" src="asset/asset 115.svg" alt="">
-                    <img class="w-8" src="asset/asset 116.svg" alt="">
-                </div> 
-            </div>
-        </nav>
+    <div class="w-screen h-screen flex flex-col items-center overflow-x-hidden relative">
+       <div class="w-[100%] flex flex-col items-center">
         
-    </div>
-    <div class="w-full h-[1px] bg-[#EEEEEE]"></div>
-    <div class="h-20 w-full flex flex-col items-center">
-        <div class="w-[91%] flex justify-between items-center h-full">
-            <div class="flex w-[65%] justify-between">
-                <div class="flex flex-col items-center gap-2 h-full">
-                    <img src="asset/asset 13.jpeg" class="w-6">
-                    <p class="text-[12px] font-semibold">Farms</p>
+            <nav class="flex p-2 w-[93%] h-30 items-center justify-between bg-white">
+                <div>
+                    <img class="w-[120px]  cursor-pointer" src="asset/pngwing.com.png">
                 </div>
-                <div class="flex flex-col items-center gap-2 h-full">
-                    <img src="asset/asset 7.webp" class="w-6">
-                    <p class="text-[12px] font-semibold">Icons</p>
+                <div class="flex gap-4 p-2 border border-[#EEEEEE] rounded-[50px] items-center shadow-md ml-[150px]">
+                    <p class="font-semibold cursor-pointer ml-3 text-[15px]">Anywhere</p>
+                    <div class="w-[2px] h-[30px] bg-[#EEEEEE]"></div>
+                    <p class="font-semibold cursor-pointer text-[15px]">Any week</p>
+                    <div class="w-[2px] h-[30px] bg-[#EEEEEE]"></div>
+                    <p class="cursor-pointer text-[15px] from-slate-400">Add guests</p>
+                        <i class="fa-solid fa-magnifying-glass bg-[#FF385C] p-2 rounded-full cursor-pointer" style="color: #f2f2f2;"></i>
                 </div>
-                <div class="flex flex-col items-center gap-2 h-full">
-                    <img src="asset/asset 14.jpeg" class="w-6">
-                    <p class="text-[12px] font-semibold">Amazing views</p>
+                <div class="flex gap-2 items-center mr-10">
+                    <div class="p-2 hover:bg-[#F7F7F7] rounded-2xl">
+                        <p class="font-semibold text-[15px]">Airbnb your home</p>
+                    </div>
+                    <div class="p-3 hover:bg-[#F7F7F7] rounded-2xl">
+                        <img class="w-4" src="asset/asset 114.svg" alt="">
+                    </div>
+                    <div class="flex gap-3 pl-3 pr-3 pt-2 pb-2 border border-[#EEEEEE] rounded-[50px]  hover:shadow-md transition-all duration-150 ">
+                        <img class="w-4" src="asset/asset 115.svg" alt="">
+                        <img class="w-8" src="asset/asset 116.svg" alt="">
+                    </div> 
                 </div>
-                <div class="flex flex-col items-center gap-2 h-full">
-                    <img src="asset/asset 8.jpeg" class="w-6">
-                    <p class="text-[12px] font-semibold">Countryside</p>
+            </nav>
+            <div class="w-screen h-[1px] bg-[#EEEEEE]"></div>
+            <div class="h-20 w-full flex flex-col items-center bg-white">
+                <div class="w-[91%] flex items-center h-full">
+                    <div class="flex w-[70%] justify-between">
+                        <div class="flex flex-col items-center gap-2 h-full">
+                            <img src="asset/asset 13.jpeg" class="w-6">
+                            <p class="text-[12px] font-semibold">Farms</p>
+                        </div>
+                        <div class="flex flex-col items-center gap-2 h-full">
+                            <img src="asset/asset 7.webp" class="w-6">
+                            <p class="text-[12px] font-semibold">Icons</p>
+                        </div>
+                        <div class="flex flex-col items-center gap-2 h-full">
+                            <img src="asset/asset 14.jpeg" class="w-6">
+                            <p class="text-[12px] font-semibold">Amazing views</p>
+                        </div>
+                        <div class="flex flex-col items-center gap-2 h-full">
+                            <img src="asset/asset 8.jpeg" class="w-6">
+                            <p class="text-[12px] font-semibold">Countryside</p>
+                        </div>
+                        <div class="flex flex-col items-center gap-2 h-full">
+                            <img src="asset/asset 42.jpeg" class="w-6">
+                            <p class="text-[12px] font-semibold">Earth homes
+                            </p>
+                        </div>
+                        <div class="flex flex-col items-center gap-2 h-full">
+                            <img src="asset/asset 27.jpeg" class="w-6">
+                            <p class="text-[12px] font-semibold">Lakes</p>
+                        </div>
+                        <div class="flex flex-col items-center gap-2 h-full">
+                            <img src="asset/asset 12.jpeg" class="w-6">
+                            <p class="text-[12px] font-semibold">Amazing pools</p>
+                        </div>
+                        <div class="flex flex-col items-center gap-2 h-full">
+                            <img src="asset/asset 6.jpeg" class="w-6">
+                            <p class="text-[12px] font-semibold">Rooms</p>
+                        </div>
+                        <div class="flex flex-col items-center gap-2 h-full">
+                            <img src="asset/asset 15.jpeg" class="w-6">
+                            <p class="text-[12px] font-semibold">Cabins</p>
+                        </div>
+                        <div class="flex flex-col items-center gap-2 h-full">
+                            <img src="asset/asset 9.jpeg" class="w-6">
+                            <p class="text-[12px] font-semibold">Treehouses</p>
+                        </div>
+                    </div>
+                    <div class="m-5 w-8 h-8 rounded-full border border-[#BEBEBE] flex items-center justify-center hover:shadow-lg transition-all duration-150">
+                        <i class="fa-solid fa-chevron-right" style="color: #000000;"></i>
+                    </div>
+                    <div class="w-[95px] h-12 border border-[#BEBEBE] rounded-xl flex items-center justify-center gap-2">
+                        <i class="fa-solid fa-sliders" style="color: #000000;"></i>
+                        <p class="text-[13px] font-semibold">Filters</p>
+                       
+                    </div>
+                    <div class="ml-4 w-[200px] h-12 border border-[#BEBEBE] rounded-xl flex items-center justify-center gap-2">
+                        <p class="text-[13px] font-semibold">Display total before taxes</p>
+                    </div>
                 </div>
-                <div class="flex flex-col items-center gap-2 h-full">
-                    <img src="asset/asset 42.jpeg" class="w-6">
-                    <p class="text-[12px] font-semibold">Earth homes
-                    </p>
-                </div>
-                <div class="flex flex-col items-center gap-2 h-full">
-                    <img src="asset/asset 27.jpeg" class="w-6">
-                    <p class="text-[12px] font-semibold">Lakes</p>
-                </div>
-                <div class="flex flex-col items-center gap-2 h-full">
-                    <img src="asset/asset 12.jpeg" class="w-6">
-                    <p class="text-[12px] font-semibold">Amazing pools</p>
-                </div>
-                <div class="flex flex-col items-center gap-2 h-full">
-                    <img src="asset/asset 6.jpeg" class="w-6">
-                    <p class="text-[12px] font-semibold">Rooms</p>
-                </div>
-                <div class="flex flex-col items-center gap-2 h-full">
-                    <img src="asset/asset 15.jpeg" class="w-6">
-                    <p class="text-[12px] font-semibold">Cabins</p>
-                </div>
-                <div class="flex flex-col items-center gap-2 h-full">
-                    <img src="asset/asset 9.jpeg" class="w-6">
-                    <p class="text-[12px] font-semibold">Treehouses</p>
-                </div>
+                <div class="w-screen h-[2px] bg-[#EEEEEE]"></div>
             </div>
-            <div>
+    
+    
+   <div class="w-full flex justify-center">
+   <div class="w-[90%] pt-4 grid grid-cols-4 gap-3">
+    <div class="rounded-lg group">
+        <div class="relative">
+            <img class="w-[330px] h-[300px] rounded-lg" src="asset/asset 71.avif" alt="">
+            <img src="asset/asset 121.svg" alt="" class="absolute w-7 top-3 right-3 hover:scale-105">
+            <div class="m-2 w-8 h-8 rounded-full border border-[#BEBEBE] group-hover:flex items-center justify-center hidden transition-all duration-150 absolute top-32 right-1 bg-white">
                 <i class="fa-solid fa-chevron-right" style="color: #000000;"></i>
             </div>
         </div>
+        <div>
+            <div class="flex justify-between">
+                <p class="font-semibold">Udaipur,India</p>
+                <p class="font-semibold">5.0</p>
+            </div>
+            <p class="text-gray-500">132 kilometers away</p>
+            <p class="text-gray-500">9june-11june</p>
+            <div class="flex">
+                <p class="font-semibold">₹26,000</p>
+                <p class="text-gray-500 ml-1">night</p>
+            </div>
+        </div>
     </div>
-    <div class="w-full h-[1px] bg-[#EEEEEE]"></div>
+    <div class="rounded-lg group">
+        <div class="relative">
+            <img class="w-[330px] h-[300px] rounded-lg" src="asset/asset 72.avif" alt="">
+            <img src="asset/asset 121.svg" alt="" class="absolute w-7 top-3 right-3 hover:scale-105">
+            <div class="m-2 w-8 h-8 rounded-full border border-[#BEBEBE] group-hover:flex items-center justify-center hidden transition-all duration-150 absolute top-32 right-1 bg-white">
+                <i class="fa-solid fa-chevron-right" style="color: #000000;"></i>
+            </div>
+        </div>
+        <div>
+            <div class="flex justify-between">
+                <p class="font-semibold">Udaipur,India</p>
+                <p class="font-semibold">5.0</p>
+            </div>
+            <p class="text-gray-500">132 kilometers away</p>
+            <p class="text-gray-500">9june-11june</p>
+            <div class="flex">
+                <p class="font-semibold">₹26,000</p>
+                <p class="text-gray-500 ml-1">night</p>
+            </div>
+        </div>
+    </div>
+    <div class="rounded-lg group">
+        <div class="relative">
+            <img class="w-[330px] h-[300px] rounded-lg" src="asset/asset 73.avif" alt="">
+            <img src="asset/asset 121.svg" alt="" class="absolute w-7 top-3 right-3 hover:scale-105">
+            <div class="m-2 w-8 h-8 rounded-full border border-[#BEBEBE] group-hover:flex items-center justify-center hidden transition-all duration-150 absolute top-32 right-1 bg-white">
+                <i class="fa-solid fa-chevron-right" style="color: #000000;"></i>
+            </div>
+        </div>
+        <div>
+            <div class="flex justify-between">
+                <p class="font-semibold">Udaipur,India</p>
+                <p class="font-semibold">5.0</p>
+            </div>
+            <p class="text-gray-500">132 kilometers away</p>
+            <p class="text-gray-500">9june-11june</p>
+            <div class="flex">
+                <p class="font-semibold">₹26,000</p>
+                <p class="text-gray-500 ml-1">night</p>
+            </div>
+        </div>
+    </div>
+    <div class="rounded-lg group">
+        <div class="relative">
+            <img class="w-[330px] h-[300px] rounded-lg" src="asset/asset 74.avif" alt="">
+            <img src="asset/asset 121.svg" alt="" class="absolute w-7 top-3 right-3 hover:scale-105">
+            <div class="m-2 w-8 h-8 rounded-full border border-[#BEBEBE] group-hover:flex items-center justify-center hidden transition-all duration-150 absolute top-32 right-1 bg-white">
+                <i class="fa-solid fa-chevron-right" style="color: #000000;"></i>
+            </div>
+        </div>
+        <div>
+            <div class="flex justify-between">
+                <p class="font-semibold">Udaipur,India</p>
+                <p class="font-semibold">5.0</p>
+            </div>
+            <p class="text-gray-500">132 kilometers away</p>
+            <p class="text-gray-500">9june-11june</p>
+            <div class="flex">
+                <p class="font-semibold">₹26,000</p>
+                <p class="text-gray-500 ml-1">night</p>
+            </div>
+        </div>
+    </div>
+    <div class="rounded-lg group">
+        <div class="relative">
+            <img class="w-[330px] h-[300px] rounded-lg" src="asset/asset 75.avif" alt="">
+            <img src="asset/asset 121.svg" alt="" class="absolute w-7 top-3 right-3 hover:scale-105">
+            <div class="m-2 w-8 h-8 rounded-full border border-[#BEBEBE] group-hover:flex items-center justify-center hidden transition-all duration-150 absolute top-32 right-1 bg-white">
+                <i class="fa-solid fa-chevron-right" style="color: #000000;"></i>
+            </div>
+        </div>
+        <div>
+            <div class="flex justify-between">
+                <p class="font-semibold">Udaipur,India</p>
+                <p class="font-semibold">5.0</p>
+            </div>
+            <p class="text-gray-500">132 kilometers away</p>
+            <p class="text-gray-500">9june-11june</p>
+            <div class="flex">
+                <p class="font-semibold">₹26,000</p>
+                <p class="text-gray-500 ml-1">night</p>
+            </div>
+        </div>
+    </div>
+    <div class="rounded-lg group">
+        <div class="relative">
+            <img class="w-[330px] h-[300px] rounded-lg" src="asset/asset 76.avif" alt="">
+            <img src="asset/asset 121.svg" alt="" class="absolute w-7 top-3 right-3 hover:scale-105">
+            <div class="m-2 w-8 h-8 rounded-full border border-[#BEBEBE] group-hover:flex items-center justify-center hidden transition-all duration-150 absolute top-32 right-1 bg-white">
+                <i class="fa-solid fa-chevron-right" style="color: #000000;"></i>
+            </div>
+        </div>
+        <div>
+            <div class="flex justify-between">
+                <p class="font-semibold">Udaipur,India</p>
+                <p class="font-semibold">5.0</p>
+            </div>
+            <p class="text-gray-500">132 kilometers away</p>
+            <p class="text-gray-500">9june-11june</p>
+            <div class="flex">
+                <p class="font-semibold">₹26,000</p>
+                <p class="text-gray-500 ml-1">night</p>
+            </div>
+        </div>
+    </div>
+    <div class="rounded-lg group">
+        <div class="relative">
+            <img class="w-[330px] h-[300px] rounded-lg" src="asset/asset 77.avif" alt="">
+            <img src="asset/asset 121.svg" alt="" class="absolute w-7 top-3 right-3 hover:scale-105">
+            <div class="m-2 w-8 h-8 rounded-full border border-[#BEBEBE] group-hover:flex items-center justify-center hidden transition-all duration-150 absolute top-32 right-1 bg-white">
+                <i class="fa-solid fa-chevron-right" style="color: #000000;"></i>
+            </div>
+        </div>
+        <div>
+            <div class="flex justify-between">
+                <p class="font-semibold">Udaipur,India</p>
+                <p class="font-semibold">5.0</p>
+            </div>
+            <p class="text-gray-500">132 kilometers away</p>
+            <p class="text-gray-500">9june-11june</p>
+            <div class="flex">
+                <p class="font-semibold">₹26,000</p>
+                <p class="text-gray-500 ml-1">night</p>
+            </div>
+        </div>
+    </div>
+    <div class="rounded-lg group">
+        <div class="relative">
+            <img class="w-[330px] h-[300px] rounded-lg" src="asset/asset 78.avif" alt="">
+            <img src="asset/asset 121.svg" alt="" class="absolute w-7 top-3 right-3 hover:scale-105">
+            <div class="m-2 w-8 h-8 rounded-full border border-[#BEBEBE] group-hover:flex items-center justify-center hidden transition-all duration-150 absolute top-32 right-1 bg-white">
+                <i class="fa-solid fa-chevron-right" style="color: #000000;"></i>
+            </div>
+        </div>
+        <div>
+            <div class="flex justify-between">
+                <p class="font-semibold">Udaipur,India</p>
+                <p class="font-semibold">5.0</p>
+            </div>
+            <p class="text-gray-500">132 kilometers away</p>
+            <p class="text-gray-500">9june-11june</p>
+            <div class="flex">
+                <p class="font-semibold">₹26,000</p>
+                <p class="text-gray-500 ml-1">night</p>
+            </div>
+        </div>
+    </div>
+   
+   </div>
+   </div>
     </div>
 </body>
 </html>
